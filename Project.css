@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+}
+
+.nav1 {
+  height: 30px;
+  background-color: #ccdfef;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav2 {
+  height: 90px;
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tekswarna {
+  color: blue;
+}
+
+.barang3 > input {
+  width: 550px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 0 0 0 20px;
+  border: none;
+  font-size: large;
+  outline: none;
+}
+
+.fa-magnifying-glass {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 540px;
+}
+
+.gamA1 {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  padding: 70px 200px 0px 130px;
+}
+
+.gamA2 {
+  padding: 70px 0px 0px 0px;
+}
+
+.GB1 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.gamA3 {
+  margin: 280px -460px;
+}
+
+.GB2 {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  margin: -250px 0px -0px 200px;
+}
+
+.bk {
+  width: 100px;
+  text-align: center;
+}
+
+.GB2 {
+  width: 100px;
+}
+
+.item1 {
+  margin-top: 600px;
+  height: 110px;
+  background-color: #ccdfef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.item1 > input {
+  width: 450px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 0 0 0 20px;
+  border: none;
+  font-size: medium;
+  outline: none;
+}
+
+.item1 > button {
+  width: 110px;
+  height: 40px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  outline: none;
+  background-color: blue;
+  color: white;
+  margin-left: -100px;
+}
+
+.item2 {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  justify-content: center;
+  padding: 100px;
+}
+
+.IM {
+  height: 250px;
+}
+
+.GB3 {
+  background-color: rgba(228, 223, 223, 0.792);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  gap: 100px;
+}
+
+.GB4 {
+  height: 30px;
+  background-color: #ccdfef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.barang2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown {
+  overflow: hidden;
+}
+
+.wrapper {
+  display: none;
+  position: absolute;
+  padding-top: 40px;
+  margin-left: -400px;
+}
+
+.wrapper2 {
+  height: 400px;
+  width: 1490px;
+  background-color: white;
+}
+
+.batas {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  width: 400px;
+  border-right: 1px solid black;
+  height: 300px;
+  padding: 50px 0 0 50px;
+}
+
+.dropdown:hover .wrapper {
+  display: block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.batas2 {
+  margin-left: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: -300px;
+}
+
+.batas3 {
+  margin-left: 950px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: -260px;
+}
+
+#body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* default background */
+  color: #333; /* default text color */
+}
+
+.ButtonJS {
+  text-align: center;
+}
+
+#button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dark-theme {
+  background-color: #222; /* dark background */
+  color: #fff; /* light text color */
+}
+
+/* CSS untuk menyesuaikan tampilan tombol Light Mode dan Night Mode */
+#lightTheme,
+#darkTheme {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4caf50; /* Warna latar belakang tombol Light Mode */
+  color: white; /* Warna teks tombol Light Mode */
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+#darkTheme {
+  background-color: #333; /* Warna latar belakang tombol Night Mode */
+}
+/* Efek hover untuk tombol */
+#lightTheme:hover,
+#darkTheme:hover {
+  background-color: #45a049; /* Warna latar belakang tombol Light Mode saat dihover */
+}
+
+#ButtonJS button {
+  margin-right: 10px;
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(197, 197, 197, 0.7);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-spinner {
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid #0589e1;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite; /* Menerapkan animasi berputar */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
